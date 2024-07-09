@@ -82,12 +82,14 @@ body {
     transition:background-color 0.3s,border-color 0.3s,color 0.3s,transform 0.2s;
  }
 
- #new-quote:hover {
-    background-color:white;
-    border:1px solid black;
-    color:black;
+ @media (min-width: 769px){
+    #new-quote:hover {
+        background-color:white;
+        border:1px solid black;
+        color:black;
+     }    
  }
-
+ 
  #new-quote:active {
     transform:scale(0.95);
     /* Slight scale down on click */
