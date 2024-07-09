@@ -163,6 +163,5 @@ body {
  }
  
  .press-button {
-    animation:pressButton 1s;
+    animation:pressButton 2s;
  }
- 
