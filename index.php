@@ -13,7 +13,7 @@
             <h1 id="quote">Loading...</h1>
             <p id="author"></p>
         </div>
-        <div id="button"><button id="new-quote">New verse</button></div>
+        <div id="button"><button id="new-quote" class="press-button">New verse</button></div>
     </div>
 </body>
 </html>
